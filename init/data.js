@@ -118,7 +118,7 @@ const sampleListings = [
   {
     title: "Historic Brownstone in Boston",
     description:"Step back in time in this elegant historic brownstone located in the heart of Boston.",
-    image: "https://images.unsplash.com/photo-1533619239233-76d7fd97e497?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnJvd25zdG9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1566550737854-b348bf1653ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 2000,
     location: "Boston",
     country: "United States",
@@ -127,77 +127,77 @@ const sampleListings = [
   {
    title: "Waterfront Villa in Bali",
     description: "Indulge in luxury living in this stunning waterfront villa with private access to a serene beach.",
-    image: "https://images.unsplash.com/photo-1585826954383-e9e3f26445f2?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://plus.unsplash.com/premium_photo-1730046886079-442765ad75b3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 4500,
     location: "Bali",
     country: "Indonesia"
   },  {
    title :"Countryside Chateau in Provence",
     description: "Experience the elegance of Provence in this spacious countryside chateau surrounded by lavender fields.",
-    image: "https://images.unsplash.com/photo-1563841314-3d6a2f3ff442?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://plus.unsplash.com/premium_photo-1729957404071-7f976fa8582e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 3500,
     location: "Provence",
     country: "France"
   },  {
    title: "Island Escape in the Maldives",
     description: "A private overwater bungalow in the Maldives for the ultimate tropical vacation.",
-    image: "https://images.unsplash.com/photo-1507651833155-2ea7e7d1debc?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://plus.unsplash.com/premium_photo-1678286769656-009c133e6f89?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 8000,
     location: "Maldives",
     country: "Maldives"
   },  {
    title: "Luxury Ranch in Montana",
     description: "Experience authentic Western living on a sprawling luxury ranch with horseback riding and hiking.",
-    image: "https://images.unsplash.com/photo-1607382687558-d8e53e49a76c?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1718644342133-0dbb056cb7fd?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 3200,
     location: "Montana",
     country: "United States"
   },  {
    title: "Penthouse with Ocean View in Sydney",
     description: "Stay in this luxury penthouse with spectacular views of the Sydney Opera House and Harbour Bridge.",
-    image: "https://images.unsplash.com/photo-1579030705064-12962d018c6c?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1657349226767-66c983d7df39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 4000,
     location: "Sydney",
     country: "Australia"
   },  {
    title: "Desert Oasis in Arizona",
     description: "A secluded desert retreat with breathtaking views of the Arizona desert landscape.",
-    image: "https://images.unsplash.com/photo-1603007393587-f65b80aeac26?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1614451153800-c141e95b9054?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 1200,
     location: "Sedona",
     country: "United States"
   },  {
    title: "Tropical Villa in Costa Rica",
     description: "Experience paradise in this stunning villa surrounded by lush jungle and steps away from the beach.",
-    image: "https://images.unsplash.com/photo-1572200506119-9f6e4c977168?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://plus.unsplash.com/premium_photo-1661964225206-fd5d445a6edd?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 2500,
     location: "Costa Rica",
     country: "Costa Rica"
   },  {
    title: "Chic Apartment in Barcelona",
     description: "A modern, stylish apartment in the heart of Barcelona, close to all the city's iconic landmarks.",
-    image: "https://images.unsplash.com/photo-1572542431185-1e8b58e21c88?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1711111038517-f5d61fe63008?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 1600,
     location: "Barcelona",
     country: "Spain"
   },  {
    title: "Beachfront Estate in Seychelles",
     description: "A luxurious beachfront estate with panoramic views of the Indian Ocean.",
-    image: "https://images.unsplash.com/photo-1580842660657-cfbc5fecd8e0?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://plus.unsplash.com/premium_photo-1676485829691-1b6d55651540?q=80&w=985&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 5000,
     location: "Seychelles",
     country: "Seychelles"
   },  {
    title: "Luxury Treehouse in Costa Rica",
     description: "Live among the treetops in this luxurious treehouse with panoramic views of the rainforest.",
-    image: "https://images.unsplash.com/photo-1565364761-2d3a1a9c6f9e?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1718606267789-de728d02f064?q=80&w=1009&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 2800,
     location: "Costa Rica",
     country: "Costa Rica"
   },  {
    title: "Modern House with Lake Views",
     description: "A sleek and modern home with stunning views of the serene lake and surrounding mountains.",
-    image: "https://images.unsplash.com/photo-1565824125-57a0c0b90797?ixid=M3wxMjA3fDB8MHx8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "https://images.unsplash.com/photo-1711470623168-885d5b054e57?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D",
     price: 1800,
     location: "Lake Geneva",
     country: "Switzerland"

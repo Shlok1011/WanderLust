@@ -1,17 +1,26 @@
 <%layout("layouts/boilerplate")%>
- <body>
+<div class="row mt-3">
+    <div class="col-8 offset-3">
     <h3>listing details</h3>
-    <ul>
-        <li><%= showData.title %></li>
-        <li><%= showData.description %></li>
-        <li> &#8377;<%= showData.price.toLocaleString("en-IN") %></li>
-        <li><%= showData.location %></li>
-        <li><%= showData.country %></li>
-    </ul>
+    </div>
+    <div class="card col-5 offset-3 show-card">
+        <img src="<%= showData.image %>" class="card-img-top show-img" alt="listing_image">
+        <div class="card-body">
+          <p class="card-text">
+            <b><%= showData.title %></b><br>
+            <%= showData.description %><br>
+             &#8377;<%= showData.price.toLocaleString("en-IN") %></li><br>
+            <%= showData.location %><br>
+            <%= showData.country %><br>
+          </p>
+        </div>
+    </div>
     <br>
-    <a href="/listing/<%=showData._id%>/edit">Edit</a>
-    <br><br>
+    <div class="btns">
+    <a href="/listing/<%=showData._id%>/edit" class="btn btn-dark col-1 offset-3 edit-btn">Edit</a>
+    <br>
     <form action="/listings/<%= showData._id%>/delete?_method=Delete" method="post">
-        <button>Delete this listing</button>
+        <button class="btn btn-dark offset-5"> Delete</button>
     </form>
- </body>
+   </div>
+</div>
