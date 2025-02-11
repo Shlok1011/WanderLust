@@ -13,7 +13,7 @@ module.exports.listingSchema = Joi.object({
 });
 
 module.exports.reviewSchema =Joi.object({
-    reciew:Joi.object({
+    review:Joi.object({
         rating:Joi.number().required().min(1).max(5),
         comment:Joi.string().required(),
     }).required()
