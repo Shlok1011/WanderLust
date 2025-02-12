@@ -200,7 +200,7 @@ const sampleListings = [
     image: "https://images.unsplash.com/photo-1711470623168-885d5b054e57?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D",
     price: 1800,
     location: "Lake Geneva",
-    country: "Switzerland"
+    country: "Switzerland",
   }
  
 ];
