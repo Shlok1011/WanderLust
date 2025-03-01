@@ -52,5 +52,8 @@ router.delete(
   isOwner,
   wrapAsync(listingController.destroyListing)
 );
-
+//search
+router.get("/search",(req,res)=>{
+  console.log(req);
+});
 module.exports = router;
